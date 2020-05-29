@@ -1,36 +1,77 @@
 @import "./reset.css";
 
-.navbar {
+.header {
 	background-color: #f72210;
 }
-
-.navbar-item {
-	display: inline-block;
+.container {
+	max-width: 1366px;
+}
+.navbar-top {
+	margin: 10px;
+}
+.navbar-top-middle {
+	margin: 5px 0 5px 10vw;
+	text-align: center;
+}
+.navbar-top-left {
+	color: white;
+	margin-left: 15px;
+	padding-top: 20px;
 }
 
+.head-para {
+	margin-top: 10px;
+}
+.navbar-top-right{
+	padding-top: 45px;
+}
+.navbar-middle {
+	width: 100%;
+	height: 44px;
+}
+
+.navbar-right,
+.navbar-top-right {
+	float: right;
+}
+
+.btn {
+	padding: .25em;
+	font-weight: 700;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+.fas {
+	color: #dce0e6;
+}
+.navbar-item {
+	display: inline-block;
+	margin-right: 8px;
+}
+.hidden-phone{
+		display: none;
+	}
 .hidden-ipad-ph {
 	display: none;
 }
-}
 
-@media screen and (max-width: 767px){
-	.hidden-phone{
-		display: none;
-	}
-
-}
 
 @media screen and (min-width: 768px){
 	.hidden-ipad {
 		display: none;
+	}
+	.hidden-phone{
+		display: block;
 	}
 }
 
 @media screen and (min-width: 992px){
 	.hidden-pc {
 		visibility: hidden;
+		display:none;
 	}
 	.hidden-ipad-ph {
-		display:block;
+		display:inline-block;
 	}
 }
