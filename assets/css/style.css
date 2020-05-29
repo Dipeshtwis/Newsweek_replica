@@ -1,0 +1,36 @@
+@import "./reset.css";
+
+.navbar {
+	background-color: #f72210;
+}
+
+.navbar-item {
+	display: inline-block;
+}
+
+.hidden-ipad-ph {
+	display: none;
+}
+}
+
+@media screen and (max-width: 767px){
+	.hidden-phone{
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 768px){
+	.hidden-ipad {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 992px){
+	.hidden-pc {
+		visibility: hidden;
+	}
+	.hidden-ipad-ph {
+		display:block;
+	}
+}
