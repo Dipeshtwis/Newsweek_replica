@@ -1,13 +1,10 @@
 @import "./reset.css";
 
-.header {
-	background-color: #f72210;
-}
 .container {
 	max-width: 1366px;
 }
 .navbar-top {
-	margin: 10px;
+	background-color: #f72210;
 }
 .navbar-top-middle {
 	margin: 5px 0 5px 10vw;
@@ -26,8 +23,9 @@
 	padding-top: 45px;
 }
 .navbar-middle {
+	background-color: #f72210;
 	width: 100%;
-	height: 44px;
+	padding: 10px;
 }
 
 .navbar-right,
@@ -45,10 +43,15 @@
 .fas {
 	color: #dce0e6;
 }
+
+.navbar-bar {
+	width: 100%;
+}
 .navbar-item {
 	display: inline-block;
-	margin-right: 8px;
+	margin-right: 5px;
 }
+
 .hidden-phone{
 		display: none;
 	}
