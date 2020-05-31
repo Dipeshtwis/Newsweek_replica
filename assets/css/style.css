@@ -49,9 +49,11 @@
 }
 .navbar-item {
 	display: inline-block;
-	margin-right: 5px;
 }
 
+.card {
+	width: auto;
+}
 .hidden-phone{
 		display: none;
 	}
