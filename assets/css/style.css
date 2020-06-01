@@ -3,6 +3,11 @@
 h2 {
 	padding: 10px;
 }
+h4{
+	font-weight: 600;
+	font-size: 22px;
+}
+
 article {
 	padding-top: 15px;
 }
@@ -109,6 +114,28 @@ article {
 }
 .card {
 	width: auto;
+}
+.jumbotron {
+	margin: 10px auto;
+}
+.newsletter {
+display: flex;
+margin-right: -15px;
+margin-left: -15px;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+	margin-left: 1rem;
+	background: url("../img/apple-touch-icon.png") center/contain no-repeat;
+}
+.newsletter h4 {
+	margin-left: 7px;
+}
+.jumbotron .news-form input {
+	margin: 5px auto;
+	width: 70%;
 }
 .hidden-phone{
 		display: none;
