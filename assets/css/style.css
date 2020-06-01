@@ -1,5 +1,11 @@
 @import "./reset.css";
 
+h2 {
+	padding: 10px;
+}
+article {
+	padding-top: 15px;
+}
 .container {
 	max-width: 1366px;
 }
@@ -50,7 +56,36 @@
 .navbar-item {
 	display: inline-block;
 }
-
+.debate-full {
+	position: relative;
+}
+.vs{
+	border-radius: 50%;
+  background-color: black;
+  width: 30px;
+  height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+}
+.vs p {
+	padding: 4px;
+	color: white;
+}
+.debate {
+	border-top: 4px solid red;
+	padding-bottom: 15px;
+	border-bottom: 4px double black;
+}
+.debate-2{
+	border-bottom: 4px solid blue;
+	padding-bottom: 15px;
+}
+.pic-div{
+	padding-left: 30px;
+	padding-top: 20px;
+}
 .card {
 	width: auto;
 }
