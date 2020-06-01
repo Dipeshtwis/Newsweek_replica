@@ -84,7 +84,7 @@ article {
 	padding-bottom: 15px;
 }
 .pic-div{
-	padding-left: 30px;
+	padding-left: 20px;
 	padding-top: 20px;
 }
 .opinion {
@@ -94,6 +94,18 @@ article {
 .empty {
 	margin:10px 0;
 	height: 25px;
+}
+.more-story {
+	display: grid;
+	grid-template-columns: 1fr 6fr;
+	border-top: 1px solid grey;
+	padding-top: 10px;
+}
+.pic-div-2{
+	padding:10px 10px;
+}
+.story-img {
+	width: 100px;
 }
 .card {
 	width: auto;
