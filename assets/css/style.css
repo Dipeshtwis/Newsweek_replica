@@ -5,7 +5,7 @@ h2 {
 }
 h4{
 	font-weight: 600;
-	font-size: 22px;
+	font-size: 18px;
 }
 
 article {
@@ -117,11 +117,14 @@ article {
 }
 .jumbotron {
 	margin: 10px auto;
+	width: 280px;
+	height: 180px;
+}
+.news-box{
+	margin: 0 auto;
 }
 .newsletter {
 display: flex;
-margin-right: -15px;
-margin-left: -15px;
 }
 
 .icon {
@@ -131,11 +134,25 @@ margin-left: -15px;
 	background: url("../img/apple-touch-icon.png") center/contain no-repeat;
 }
 .newsletter h4 {
-	margin-left: 7px;
+	margin-left: 8px;
 }
 .jumbotron .news-form input {
-	margin: 5px auto;
-	width: 70%;
+	margin-top: 10px;
+	width: 100%;
+	height: 32px;
+}
+.news-form .form-text {
+	text-indent: 10px;
+	background-color: white;
+border: 1px solid #e0e1e1;
+color: #555;
+}
+.news-form .form-submit {
+	cursor: pointer;
+	background-color: #f61602;
+	color: white;
+	border:none;
+	border-radius: 3px;
 }
 .hidden-phone{
 		display: none;
@@ -152,6 +169,17 @@ margin-left: -15px;
 	.hidden-phone{
 		display: block;
 	}
+	.icon {
+	width: 60px;
+	height: 60px;
+    }
+	.jumbotron{
+		width: 300px;
+		height: 230px;
+	}
+	.newsletter h4 {
+	  margin-top: 5px;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -162,4 +190,7 @@ margin-left: -15px;
 	.hidden-ipad-ph {
 		display:inline-block;
 	}
+	.newsletter h4 {
+	margin-top: 8px;
+    }
 }
