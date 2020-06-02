@@ -250,7 +250,29 @@ color: #555;
 	background: url("../img/starting5-homepage.png") center/contain no-repeat;
 	background-size: cover;
 }
+footer {
+	margin-left: 15px;
+	padding-top: 15px;
+}
 
+.footer-social {
+	align-self: flex-end;
+}
+
+.footer-border{
+	border-bottom: 1px solid #666;
+	padding-bottom: 15px; 
+}
+.footer-list {
+	display: inline-block;
+	margin-right: 10px;
+}
+.footer-list a {
+	color: #666;
+}
+.footer-end {
+	margin-top: 10px;
+}
 .hidden-phone{
 		display: none;
 	}
