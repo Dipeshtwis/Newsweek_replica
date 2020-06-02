@@ -7,13 +7,21 @@ h4{
 	font-weight: 600;
 	font-size: 18px;
 }
-
+body {
+	background-color: #f4f5f6;
+color: #333;
+font-size: 13px;
+line-height: 18px;
+font-family: Arial,Helvetica,sans-serif;
+overflow-x: hidden;
+}
 article {
 	padding-top: 15px;
 }
 .container {
 	max-width: 1366px;
-	background-color: grey;
+	background-color: white;
+	padding:0;
 }
 .navbar-top {
 	background-color: #f72210;
@@ -62,9 +70,26 @@ article {
 .navbar-item {
 	display: inline-block;
 }
-.debate-full {
-	position: relative;
+.col-sm-12,
+.col-md-12,
+.col-lg-4 {
+	padding-left:0;
+	padding-right: 0;
 }
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.opinion-full,
+.debate-full {
+	padding-left: 15px;
+padding-right: 15px;
+}
+.debate-full {
+	position: relative;	
+}
+
 .vs{
 	border-radius: 50%;
   background-color: black;
@@ -92,19 +117,20 @@ article {
 	padding-left: 20px;
 	padding-top: 20px;
 }
-.opinion {
-	border-bottom: 1px solid grey;
-	padding-bottom: 10px;
-}
 .empty {
 	margin:10px 0;
 	height: 25px;
 }
-.more-story {
+.more-story,
+.opinion {
 	display: grid;
 	grid-template-columns: 1fr 6fr;
 	border-top: 1px solid grey;
-	padding-top: 10px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+}
+.opinion:first-of-type{
+	border:none;
 }
 .pic-div-2{
 	padding:10px 10px;
@@ -119,6 +145,8 @@ article {
 	margin: 10px auto;
 	width: 280px;
 	height: 180px;
+	border: 1px solid #e5e5e5;
+background-color: #f4f5f6;
 }
 .news-box{
 	margin: 0 auto;
