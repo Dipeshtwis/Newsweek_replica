@@ -83,7 +83,7 @@ article {
 }
 .opinion-full,
 .debate-full {
-	padding-left: 15px;
+padding-left: 15px;
 padding-right: 15px;
 }
 .debate-full {
@@ -139,7 +139,30 @@ padding-right: 15px;
 	width: 100px;
 }
 .card {
+	border:none;
 	width: auto;
+	padding-left:15px;
+	padding-right: 15px;
+}
+.image-card {
+	position: relative;
+}
+.caption {
+	position: absolute;
+font: bold 17px/16px "Roboto Condensed",sans-serif;
+color: #f72210;
+text-transform: uppercase;
+padding: 8px 15px 9px;
+background-color: rgba(255,255,255,.9);
+bottom: 0;
+}
+.tags {
+	position: absolute;
+	font: bold 13px/20px "Roboto condensed",Arial,sans-serif;
+	text-transform: uppercase;
+	background-color: rgba(124, 162, 196,.8);
+	padding: 0 5px;
+	bottom: 4px;
 }
 .jumbotron {
 	margin: 10px auto;
