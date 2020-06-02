@@ -179,8 +179,8 @@ display: flex;
 }
 
 .icon {
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	margin-left: 1rem;
 	background: url("../img/apple-touch-icon.png") center/contain no-repeat;
 }
