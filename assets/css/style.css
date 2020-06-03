@@ -60,6 +60,7 @@ body {
 
 header {
   width: 100%;
+  max-width: 1366px;
   position: fixed;
   top: 0;
   z-index: 3;
@@ -67,6 +68,10 @@ header {
 
 article {
   padding-top: 15px;
+}
+
+.section {
+  margin-top: 47px;
 }
 
 img {
@@ -551,6 +556,10 @@ footer {
 
   .navbar-top-right {
     padding-top: 25px;
+  }
+
+  .section {
+    margin-top: 127px;
   }
 
   .newsletter h3 {
