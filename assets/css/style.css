@@ -1,9 +1,5 @@
 @import "./reset.css";
 
-h2 {
-  padding: 10px;
-}
-
 h4,
 h3,
 h2,
@@ -12,6 +8,12 @@ h6 {
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
+}
+
+h2 {
+  padding: 10px;
+  color: grey;
+  cursor: text;
 }
 
 h5 {
@@ -79,25 +81,6 @@ img {
 
 .navbar-top {
   background-color: #f72210;
-}
-
-.navbar-top-middle {
-  margin: 5px 2vw 5px 10vw;
-  text-align: center;
-}
-
-.navbar-top-left {
-  color: white;
-  margin-left: 15px;
-  padding-top: 20px;
-}
-
-.head-para {
-  margin-top: 10px;
-}
-
-.navbar-top-right {
-  padding-top: 45px;
 }
 
 .navbar-middle {
@@ -549,6 +532,25 @@ footer {
 
   .hidden-ipad-ph {
     display: inline-block;
+  }
+
+  .navbar-top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-top-left {
+    color: white;
+    margin-left: 15px;
+    padding-top: 20px;
+  }
+
+  .head-para {
+    margin-top: 10px;
+  }
+
+  .navbar-top-right {
+    padding-top: 25px;
   }
 
   .newsletter h3 {
