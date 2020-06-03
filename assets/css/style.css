@@ -71,10 +71,6 @@ img {
   cursor: pointer;
 }
 
-.section {
-  margin-top: 45px;
-}
-
 .container {
   max-width: 1366px;
   background-color: white;
@@ -86,7 +82,7 @@ img {
 }
 
 .navbar-top-middle {
-  margin: 5px 0 5px 10vw;
+  margin: 5px 2vw 5px 10vw;
   text-align: center;
 }
 
@@ -149,11 +145,11 @@ img {
 
 .navbar-item {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 5px;
 }
 
 .link-nav {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   font-weight: 700;
   color: black;
@@ -170,7 +166,7 @@ img {
 
 .input-search {
   border: none;
-  width: 7rem;
+  width: 5rem;
   padding: 0.2rem;
 }
 
@@ -557,10 +553,6 @@ footer {
 
   .newsletter h3 {
     margin-top: 8px;
-  }
-
-  .section {
-    margin-top: 147px;
   }
 
   .test {
