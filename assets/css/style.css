@@ -328,6 +328,10 @@ img {
   margin-left: 8px;
 }
 
+.newsletter-whole-div .img-info h3 {
+  margin-top: 15px;
+}
+
 .newsletter img {
   width: 30px;
   height: 30px;
