@@ -3,19 +3,32 @@
 h2 {
 	padding: 10px;
 }
-h4,h3{
+h4,h3,h2,h5,h6{
 	font-weight: 600;
 	font-size: 16px;
+	cursor: pointer;
+}
+h5 {
+	color: #f72210;
+	margin-left: 15px;
 }
 a{
 	text-decoration: none;
+	color: black;
+}
+.china-img:hover {
+	background-color: grey;
 }
 a:hover {
 	text-decoration: none;
+	color: black;
 }
 h4:hover {
 	text-decoration: underline;
 	text-decoration-color: red;
+}
+h6:hover {
+	color: #f72210;
 }
 body {
 	background-color: #f4f5f6;
@@ -73,6 +86,7 @@ img {
 .navbar-right,
 .navbar-top-right {
 	float: right;
+	margin-top: 7px; 
 }
 
 .test {
@@ -114,6 +128,7 @@ color: white;
 .link-nav:hover {
 	color:#f72310;
 }
+
 .form-search {
   padding: 0 1rem;
   position: relative;
@@ -237,6 +252,7 @@ bottom: 0;
 	padding: 0 5px;
 	bottom: 4px;
 }
+
 .jumbotron {
 	margin: 10px auto;
 	width: 280px;
@@ -324,7 +340,7 @@ color: #555;
 	background-color: #f4f5f6;
 }
 .china-img .for-style {
-	padding: 0.4rem;
+	padding: 0.3rem;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -342,7 +358,7 @@ color: #555;
 footer {
 	margin-left: 15px;
 	padding-top: 15px;
-	padding-bottom: 20px;
+	padding-bottom: 35px;
 }
 
 .footer-border{
@@ -356,6 +372,13 @@ footer {
 .footer-list a {
 	color: #666;
 }
+.footer-ul {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.footer-top .small-up .small {
+	display: inline-block;
+}
 .social-link:hover{
 	color: #197db3;
 }
@@ -364,6 +387,22 @@ footer {
 }
 .footer-end {
 	margin-top: 10px;
+}
+.unique-list {
+	padding-bottom: 4px;
+}
+.red {
+	padding: 0.4rem;
+	background-color:#f72310;
+	color: white;
+	font-size: 18px; 
+	font-weight: bold;
+}
+.only-red {
+	font-size: 18px;
+	font-weight: bold;
+	color:#f72310;
+	cursor: pointer;
 }
 .hidden-phone{
 		display: none;
@@ -374,6 +413,9 @@ footer {
 
 
 @media screen and (min-width: 768px){
+	h3 {
+		font-size: 12px;
+	}
 	.hidden-ipad {
 		display: none;
 	}
@@ -405,20 +447,25 @@ footer {
  .test {
  	font-size: 18px;
 line-height: 20px;
-margin-bottom: 4px;
 border:none;
+ }
+ .bit{
+ 	height: 120px;
  }
 }
 
 @media screen and (min-width: 992px){
+	h3 {
+		font-size: 15px;
+		font-weight: bold;
+	}
 	.hidden-pc {
-		visibility: hidden;
 		display:none;
 	}
 	.hidden-ipad-ph {
 		display:inline-block;
 	}
-	.newsletter h4 {
+	.newsletter h3 {
 	margin-top: 8px;
     }
     .section {
@@ -431,4 +478,13 @@ padding-right: 9px;
 margin-top: 4px;
  margin-right: 10px;
     }
+    .bit {
+    	margin-top:10px; 
+    	height: auto;
+    }
+    .small-up {
+    	margin-left: -55px;
+    	margin-bottom: 5px;
+    }
+
 }
