@@ -1,5 +1,5 @@
 # Newsweek_replica
-This is a clone version of newsweek website. It has uses of bootstrap framework of CSS.
+This is a clone version of newsweek website. It has uses of bootstrap framework of CSS, with the help of this project, I got to know how to use bootstrap.
 
 ## Project Design
 
@@ -19,7 +19,7 @@ Project Design Screenshot : ![Project Design](assets/img/Screenshot_2020-06-03_N
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Dipeshtwis/Responsive_Design/feature-responsive-design/index.html)
+[Live Demo Link](https://raw.githack.com/Dipeshtwis/Newsweek_replica/feature-newsweek-replica/index.html)
 
 
 # Github link:
