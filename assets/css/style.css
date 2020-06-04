@@ -300,15 +300,10 @@ img {
 }
 
 .jumbotron {
-  margin: 10px auto;
-  width: 280px;
-  height: 180px;
+  max-width: 280px;
   border: 1px solid #e5e5e5;
   background-color: #f4f5f6;
-}
-
-.news-box {
-  margin: 0 auto;
+  margin: 0 auto 30px;
 }
 
 .newsletter {
@@ -477,7 +472,102 @@ footer {
 .hidden-ipad-ph {
   display: none;
 }
+@media screen and (min-width:510px){
+	.jumbotron{
+		margin-top: 10vh;
+	}
+}
+@media screen and (min-width:524px){
+	.jumbotron{
+		margin-top: 20vh;
+	}
+}
+@media screen and (min-width:536px){
+	.jumbotron{
+		margin-top: 40vh;
+	}
+}
+@media screen and (min-width:560px){
+	.jumbotron{
+		margin-top: 50vh;
+	}
+}
+@media screen and (min-width:572px){
+	.jumbotron{
+		margin-top: 60vh;
+	}
+}
+@media screen and (min-width:584px){
+	.jumbotron{
+		margin-top: 70vh;
+	}
+}
+@media screen and (min-width:598px){
+	.jumbotron{
+		margin-top: 80vh;
+	}
+}
+@media screen and (min-width:612px){
+	.jumbotron{
+		margin-top: 90vh;
+	}
+}
+@media screen and (min-width:626px){
+	.jumbotron{
+		margin-top: 110vh;
+	}
+}
+@media screen and (min-width:640px){
+	.jumbotron{
+		margin-top: 120vh;
+	}
+}
 
+@media screen and (min-width:660px){
+	.jumbotron{
+		margin-top: 130vh;
+	}
+}
+@media screen and (min-width:672px){
+	.jumbotron{
+		margin-top: 140vh;
+	}
+}
+@media screen and (min-width:684px){
+	.jumbotron{
+		margin-top: 150vh;
+	}
+}
+@media screen and (min-width:696px){
+	.jumbotron{
+		margin-top: 160vh;
+	}
+}
+@media screen and (min-width:708px){
+	.jumbotron{
+		margin-top: 170vh;
+	}
+}
+@media screen and (min-width:720px){
+	.jumbotron{
+		margin-top: 180vh;
+	}
+}
+@media screen and (min-width:732px){
+	.jumbotron{
+		margin-top: 190vh;
+	}
+}
+@media screen and (min-width:746px){
+	.jumbotron{
+		margin-top: 200vh;
+	}
+}
+@media screen and (min-width:758px){
+	.jumbotron{
+		margin-top: 210vh;
+	}
+}
 @media screen and (min-width: 768px) {
   h3 {
     font-size: 12px;
