@@ -27,7 +27,6 @@ a {
 }
 
 .china-img {
-  margin-bottom: 3px;
   background-color: #f4f5f6;
 }
 
@@ -59,7 +58,6 @@ body {
 }
 
 header {
-  width: 100%;
   max-width: 1366px;
   position: fixed;
   top: 0;
@@ -72,6 +70,8 @@ article {
 
 .section {
   margin-top: 47px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 img {
@@ -90,7 +90,6 @@ img {
 
 .navbar-middle {
   background-color: #f72210;
-  width: 100%;
   padding: 10px;
 }
 
@@ -303,12 +302,10 @@ img {
   max-width: 280px;
   border: 1px solid #e5e5e5;
   background-color: #f4f5f6;
-  margin: 0 auto 30px;
+  margin: 20px auto;
 }
 
 .newsletter {
-  display: flex;
-  justify-content: center;
   padding: 10px;
 }
 
@@ -425,11 +422,6 @@ footer {
   color: #666;
 }
 
-.footer-ul {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
 .footer-top .small-up .small {
   display: inline-block;
 }
@@ -440,10 +432,6 @@ footer {
 
 .footer-list-link:hover {
   color: black;
-}
-
-.footer-end {
-  margin-top: 10px;
 }
 
 .unique-list {
@@ -471,120 +459,6 @@ footer {
 
 .hidden-ipad-ph {
   display: none;
-}
-
-@media screen and (min-width: 510px) {
-  .jumbotron {
-    margin-top: 10vh;
-  }
-}
-
-@media screen and (min-width: 524px) {
-  .jumbotron {
-    margin-top: 20vh;
-  }
-}
-
-@media screen and (min-width: 536px) {
-  .jumbotron {
-    margin-top: 40vh;
-  }
-}
-
-@media screen and (min-width: 560px) {
-  .jumbotron {
-    margin-top: 50vh;
-  }
-}
-
-@media screen and (min-width: 572px) {
-  .jumbotron {
-    margin-top: 60vh;
-  }
-}
-
-@media screen and (min-width: 584px) {
-  .jumbotron {
-    margin-top: 70vh;
-  }
-}
-
-@media screen and (min-width: 598px) {
-  .jumbotron {
-    margin-top: 80vh;
-  }
-}
-
-@media screen and (min-width: 612px) {
-  .jumbotron {
-    margin-top: 90vh;
-  }
-}
-
-@media screen and (min-width: 626px) {
-  .jumbotron {
-    margin-top: 110vh;
-  }
-}
-
-@media screen and (min-width: 640px) {
-  .jumbotron {
-    margin-top: 120vh;
-  }
-}
-
-@media screen and (min-width: 660px) {
-  .jumbotron {
-    margin-top: 130vh;
-  }
-}
-
-@media screen and (min-width: 672px) {
-  .jumbotron {
-    margin-top: 140vh;
-  }
-}
-
-@media screen and (min-width: 684px) {
-  .jumbotron {
-    margin-top: 150vh;
-  }
-}
-
-@media screen and (min-width: 696px) {
-  .jumbotron {
-    margin-top: 160vh;
-  }
-}
-
-@media screen and (min-width: 708px) {
-  .jumbotron {
-    margin-top: 170vh;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .jumbotron {
-    margin-top: 180vh;
-  }
-}
-
-@media screen and (min-width: 732px) {
-  .jumbotron {
-    margin-top: 190vh;
-  }
-}
-
-@media screen and (min-width: 746px) {
-  .jumbotron {
-    margin-top: 200vh;
-  }
-}
-
-@media screen and (min-width: 758px) {
-  .jumbotron {
-    margin-top: 210vh;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -651,12 +525,7 @@ footer {
   .hidden-ipad-ph {
     display: inline-block;
   }
-
-  .navbar-top {
-    display: flex;
-    justify-content: space-between;
-  }
-
+  
   .navbar-top-left {
     color: white;
     margin-left: 15px;
