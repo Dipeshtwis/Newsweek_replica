@@ -422,10 +422,6 @@ footer {
   color: #666;
 }
 
-.footer-top .small-up .small {
-  display: inline-block;
-}
-
 .social-link:hover {
   color: #197db3;
 }
@@ -559,10 +555,5 @@ footer {
   .bit {
     margin-top: 10px;
     height: auto;
-  }
-
-  .small-up {
-    margin-left: -55px;
-    margin-bottom: 5px;
   }
 }
