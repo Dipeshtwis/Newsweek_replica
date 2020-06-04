@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -18,13 +16,13 @@
       <div class="container">
          <header class="header w-100">
             <div class="navbar-top d-flex justify-content-between">
-               <div class="navbar-top-left hidden-ipad-ph">
+               <div class="navbar-top-left d-sm-none d-lg-inline-block">
                   <i class="fas fa-cloud-sun"></i>
                   <span>34</span>
                   <span>Patna, Bihar</span>
                   <p class="head-para">Fri, May 29, 2020</p>
                </div>
-               <div class="navbar-top-middle hidden-ipad-ph">
+               <div class="navbar-top-middle d-sm-none d-lg-inline-block">
                   <a class="brand" href="https://www.newsweek.com">
                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25em" height="5rem" fill="#fff" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
                         <g>
@@ -33,12 +31,12 @@
                      </svg>
                   </a>
                </div>
-               <ul class="navbar-top-right hidden-ipad-ph">
-                  <li class="navbar-item"><button class=" test login-btn">Login</button></li>
-                  <li class="navbar-item"><button class=" test subscribe-button">Subscribe ></button></li>
+               <ul class="navbar-top-right d-sm-none d-lg-inline-block">
+                  <li class="navbar-item"><button class=" test mt-lg-1 border-0 login-btn">Login</button></li>
+                  <li class="navbar-item"><button class=" test mt-lg-1 border-0 rounded-lg subscribe-button">Subscribe ></button></li>
                </ul>
             </div>
-            <div class=" navbar-middle w-100 hidden-pc">
+            <div class=" navbar-middle w-100 d-lg-none">
                <div class="navbar-middle-left">
                   <svg version="1.1"  class="navbar-brand" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="7em" fill="#fff" height="2rem" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
                      <g>
@@ -47,11 +45,11 @@
                   </svg>
                   <ul class="navbar-right">
                      <li class="navbar-item">
-                        <span class="hidden-ipad"><i class="fas fa-user"></i></span>
-                        <span class="hidden-phone"><button class="test login-btn">Login</button></span>
+                        <span class="d-md-none"><i class="fas fa-user"></i></span>
+                        <span class="d-sm-none d-md-block"><button class="test border-0 login-btn">Login</button></span>
                      </li>
                      <li class="navbar-item">
-                        <button class="test subscribe-button">Subscribe ></button>
+                        <button class="test border-0 subscribe-button rounded">Subscribe ></button>
                      </li>
                      <li class="navbar-item">
                         <i class="fas fa-bars fa-lg"></i>
@@ -59,10 +57,10 @@
                   </ul>
                </div>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light hidden-ipad-ph">
+            <nav class="navbar w-100 navbar-expand-lg navbar-light bg-light d-sm-none d-lg-inline-block">
                <div class="collapse navbar-collapse">
-                  <ul class="navbar-bar">
-                     <li class="navbar-item"><a href="#" class="link-nav"> U.S.</a></li>
+                  <ul class="navbar-bar w-100">
+                     <li class="navbar-item"><a href="#" class="link-nav">U.S.</a></li>
                      <li class="navbar-item"><a href="#" class="link-nav">| World</a></li>
                      <li class="navbar-item"><a href="#" class="link-nav">| Business</a></li>
                      <li class="navbar-item"><a href="#" class="link-nav">| Tech & Science</a></li>
@@ -75,7 +73,7 @@
                      <li class="navbar-item"><a href="#" class="link-nav">| Weather</a></li>
                      <li class="navbar-item">
                         <form class="form-search">
-                           <input type="text" class="input-search" name="search" placeholder="Search">
+                           <input type="text" class="input-search border-0" name="search" placeholder="Search">
                            <i class="fas fa-search fa-lg"></i>
                         </form>
                      </li>
@@ -86,11 +84,11 @@
          <div class="section">
             <div class="row">
                <div class="flex-column col-sm-12 col-md-7 col-lg-4 order-md-2">
-                  <article>
-                     <h2>TOP STORY</h2>
+                  <article class="pt-3">
+                     <h2 class="text-muted">TOP STORY</h2>
                      <div class="card">
                         <div class="image-card">
-                           <div class="caption">Politics</div>
+                           <div class="caption text-uppercase">Politics</div>
                            <img class="card-img-top" src="assets/img/donald-trump.jpg" alt="Card image">
                         </div>
                         <div class="card-body">
@@ -100,61 +98,61 @@
                      </div>
                   </article>
                   <!-- hidden phone hero and story -->
-                  <div class="row flex-column hidden-phone">
-                     <article class="order-sm-11">
-                        <h2>Heroes of the Pandemic</h2>
+                  <div class="row flex-column d-sm-none d-md-block">
+                     <article class="order-sm-11 pt-3">
+                        <h2 class="text-muted">Heroes of the Pandemic</h2>
                         <div class="row">
                            <div class="col-md-4">
                               <div class="image-card">
-                                 <div class="tags">Politics</div>
+                                 <div class="tags text-uppercase">Politics</div>
                                  <img class="card-img-top" src="assets/img/isaac.jpg" alt="Card image">
                               </div>
                               <p class="card-text">"The Doctors and Nurses Crossing the Border Daily to Help Asylum Seekers</p>
                            </div>
                            <div class="col-md-4">
                               <div class="image-card">
-                                 <div class="tags">Politics</div>
+                                 <div class="tags text-uppercase">Politics</div>
                                  <img class="card-img-top" src="assets/img/tamara-mcgovern.jpg" alt="Card image">
                               </div>
                               <p class="card-text">"Women Launch Campaign Urging People to Donate Their Stimulus Checks</p>
                            </div>
                            <div class=" col-md-4">
                               <div class="image-card">
-                                 <div class="tags">Politics</div>
+                                 <div class="tags text-uppercase">Politics</div>
                                  <img class="card-img-top" src="assets/img/evan-rosenberg.jpg" alt="Card image">
                               </div>
                               <p class="card-text">"The Doctors and Nurses Crossing the Border Daily to Help Asylum Seekers</p>
                            </div>
                         </div>
                      </article>
-                     <article class="order-sm-11">
-                        <h2>Cultural</h2>
+                     <article class="order-sm-11 pt-3">
+                        <h2 class="text-muted">Cultural & Travel</h2>
                         <div class="row">
                            <div class="col-md-4">
                               <div class="image-card">
-                                 <div class="tags">Politics</div>
+                                 <div class="tags text-uppercase">Politics</div>
                                  <img class="card-img-top" src="assets/img/apple-touch-icon.png" alt="Card image">
                               </div>
                               <p class="card-text">"The Doctors and Nurses Crossing the Border Daily to Help Asylum Seekers</p>
                            </div>
                            <div class="col-md-4">
                               <div class="image-card">
-                                 <div class="tags">Politics</div>
+                                 <div class="tags text-uppercase">Politics</div>
                                  <img class="card-img-top" src="assets/img/tamara-mcgovern.jpg" alt="Card image">
                               </div>
                               <p class="card-text">"Women Launch Campaign Urging People to Donate Their Stimulus Checks</p>
                            </div>
                            <div class=" col-md-4">
                               <div class="image-card">
-                                 <div class="tags">Politics</div>
+                                 <div class="tags text-uppercase">Politics</div>
                                  <img class="card-img-top" src="assets/img/evan-rosenberg.jpg" alt="Card image">
                               </div>
                               <p class="card-text">"The Doctors and Nurses Crossing the Border Daily to Help Asylum Seekers</p>
                            </div>
                         </div>
                      </article>
-                     <article class=" opinion-full">
-                        <h2>MORE STORIES</h2>
+                     <article class=" opinion-full pt-3">
+                        <h2 class="text-muted">MORE STORIES</h2>
                         <div class="more-story">
                            <div class="pic-div-2">
                               <img class="story-img" src="assets/img/ilhan-omar.jpg" alt="img">
@@ -257,11 +255,11 @@
                      </article>
                   </div>
                </div>
-               <article class="col-sm-12 col-md-5 col-lg-4 order-md-1">
-                  <h2>FEATURED STORIES</h2>
+               <article class="col-sm-12 col-md-5 col-lg-4 order-md-1 pt-3">
+                  <h2 class="text-muted">FEATURED STORIES</h2>
                   <div class="card">
                      <div class="image-card">
-                        <div class="caption">Politics</div>
+                        <div class="caption text-uppercase">Politics</div>
                         <img class="card-img-top" src="assets/img/donald-trump-covid-coronavirus-pandemic.jpg" alt="Card image">
                      </div>
                      <div class="card-body">
@@ -271,7 +269,7 @@
                   </div>
                   <div class="card">
                      <div class="image-card">
-                        <div class="caption">Politics</div>
+                        <div class="caption text-uppercase">Politics</div>
                         <img class="card-img-top" src="assets/img/dr-anthony-fauci-white-house.jpg" alt="Card image">
                      </div>
                      <div class="card-body">
@@ -281,7 +279,7 @@
                   </div>
                   <div class="card">
                      <div class="image-card">
-                        <div class="caption">Politics</div>
+                        <div class="caption text-uppercase">Politics</div>
                         <img class="card-img-top" src="assets/img/donald-trump-covid-coronavirus-pandemic.jpg" alt="Card image">
                      </div>
                      <div class="card-body">
@@ -291,7 +289,7 @@
                   </div>
                   <div class="card">
                      <div class="image-card">
-                        <div class="caption">Politics</div>
+                        <div class="caption text-uppercase">Politics</div>
                         <img class="card-img-top" src="assets/img/dr-anthony-fauci-white-house.jpg" alt="Card image">
                      </div>
                      <div class="card-body">
@@ -301,7 +299,7 @@
                   </div>
                   <div class="card">
                      <div class="image-card">
-                        <div class="caption">Politics</div>
+                        <div class="caption text-uppercase">Politics</div>
                         <img class="card-img-top" src="assets/img/donald-trump-covid-coronavirus-pandemic.jpg" alt="Card image">
                      </div>
                      <div class="card-body">
@@ -312,11 +310,11 @@
                </article>
                <!-- Debate and opinion -->
                <div class="row flex-column col-sm-12 col-md-12 col-lg-4 order-md-3">
-                  <article class=" debate-full">
+                  <article class="col-sm-12 debate-full pt-3">
                      <div class="vs">
                         <p>VS</p>
                      </div>
-                     <h2>THE DEBATE </h2>
+                     <h2 class="text-muted">THE DEBATE </h2>
                      <div class="row debate">
                         <div class="pic-div col-3">
                            <img src="assets/img/jocelyn-benson.png" alt="img">
@@ -334,8 +332,8 @@
                         </div>
                      </div>
                   </article>
-                  <article class=" opinion-full">
-                     <h2>OPINION</h2>
+                  <article class="col-sm-12 opinion-full pt-3">
+                     <h2 class="text-muted">OPINION</h2>
                      <div class="row opinion">
                         <div class="pic-div col-3">
                            <img src="assets/img/tim-phillips.png" alt="img">
@@ -385,10 +383,26 @@
                         </div>
                      </div>
                   </article>
+
+                  <div class="col-sm-12 d-sm-none d-lg-inline-block">
+                     <div class=" jumbotron ">
+                        <div class="news-box">
+                           <div class="newsletter d-flex justify-content-center">
+                              <span class="icon"></span>
+                              <h3>Start your day with our top 5 articles</h3>
+                           </div>
+                           <form class="news-form">
+                              <input type="text" name="email" class="form-text" placeholder="Email address">
+                              <input type="submit" name="sumbit" class="form-submit" value="Free sign up >">
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+
                   <!-- empty div -->
-                  <div class="empty hidden-ipad"></div>
-                  <article class=" opinion-full hidden-ipad">
-                     <h2>MORE STORIES</h2>
+                  <div class="empty d-md-none"></div>
+                  <div class=" col-sm-12 opinion-full d-md-none">
+                     <h2 class="text-muted">MORE STORIES</h2>
                      <div class="more-story">
                         <div class="pic-div-2">
                            <img class="story-img" src="assets/img/ilhan-omar.jpg" alt="img">
@@ -488,10 +502,9 @@
                            <p>Omar said that nationwide reforms are needed in the wake of George Floyd's death at the hands of Minneapolis police.</p>
                         </div>
                      </div>
-                  </article>
-                  <div>
-                     <article class="hidden-ipad">
-                        <h2>Heroes of the Pandemic</h2>
+                  </div>
+                  <article class="d-md-none col-sm-12 pt-3">
+                        <h2 class="text-muted">Heroes of the Pandemic</h2>
                         <div class="card">
                            <div class="image-card">
                               <div class="tags">Politics</div>
@@ -520,9 +533,8 @@
                            </div>
                         </div>
                      </article>
-                     <div>
-                        <article class="hidden-ipad">
-                           <h2>Culture & Travel</h2>
+                     <article class="d-md-none col-sm-12 pt-3">
+                           <h2 class="text-muted">Culture & Travel</h2>
                            <div class="card">
                               <div class="image-card">
                                  <div class="tags">Politics</div>
@@ -552,10 +564,11 @@
                            </div>
                         </article>
                      </div>
-                  </div>
+                   </div>
+                  
                   <!-- Jombotron -->
-                  <div>
-                     <div class=" jumbotron">
+                  <div class=" col-sm-12 d-lg-none">
+                     <div class=" jumbotron ">
                         <div class="news-box">
                            <div class="newsletter d-flex justify-content-center">
                               <span class="icon"></span>
@@ -569,11 +582,9 @@
                      </div>
                   </div>
                </div>
-            </div>
-         </div>
          <!--  magazine and editor's pick--> 
-         <aside>
-            <div class="newsletter d-flex justify-content-center">
+         <aside class="row">
+            <div class="newsletter d-flex justify-content-center col-sm-12">
                <img src="assets/img/apple-touch-icon.png" alt="icon">
                <h3>IN THE MAGAZINE</h3>
             </div>
@@ -582,13 +593,13 @@
                   <div class="card">
                      <div class="image-card">
                         <div class="caption">JUNE 05 ISSUE</div>
-                        <img class="card-img-top" src="assets/img/may-29-june-06-2020-cover.jpg" alt="Card image">
+                        <img class="card-img-top mt-md-3" src="assets/img/may-29-june-06-2020-cover.jpg" alt="Card image">
                      </div>
-                     <a href="#">
-                        <div class="china-img mb-3">
-                           <h3 class="for-style for-hover">See all features ></h3>
+                     
+                        <div class="china-img mb-md-3">
+                           <h3 class="for-style text-center for-hover"><a href="#">See all features ></a></h3>
                         </div>
-                     </a>
+                     
                   </div>
                </div>
                <div class="col-sm-12 col-md-3">
@@ -685,7 +696,7 @@
                   </div>
                </div>
             </div>
-            <div class="newsletter d-flex justify-content-center">
+            <div class="newsletter d-flex justify-content-center col-sm-12">
                <img src="assets/img/apple-touch-icon.png" alt="icon">
                <h3>EDITOR'S PICK</h3>
             </div>
@@ -693,7 +704,7 @@
                <div class="col-sm-12 col-md-6 col-lg-3">
                   <div class="card">
                      <div class="image-card">
-                        <div class="caption">Culture</div>
+                        <div class="caption text-uppercase">Culture</div>
                         <img class="card-img-top" src="assets/img/chrissy-teigen.jpg" alt="Card image">
                      </div>
                      <div class="card-body">
@@ -705,7 +716,7 @@
                <div class="col-sm-12 col-md-6 col-lg-3">
                   <div class="card">
                      <div class="image-card">
-                        <div class="caption">Culture</div>
+                        <div class="caption text-uppercase">Culture</div>
                         <img class="card-img-top" src="assets/img/floyd.jpg" alt="Card image">
                      </div>
                      <div class="card-body">
@@ -717,7 +728,7 @@
                <div class="col-sm-12 col-md-6 col-lg-3">
                   <div class="card">
                      <div class="image-card">
-                        <div class="caption">Culture</div>
+                        <div class="caption text-uppercase">Culture</div>
                         <img class="card-img-top" src="assets/img/zoom-video-conference-app-logo.jpg" alt="Card image">
                      </div>
                      <div class="card-body">
@@ -729,7 +740,7 @@
                <div class="col-sm-12 col-md-6 col-lg-3">
                   <div class="card">
                      <div class="image-card">
-                        <div class="caption">Culture</div>
+                        <div class="caption text-uppercase">Culture</div>
                         <img class="card-img-top" src="assets/img/floyd.jpg" alt="Card image">
                      </div>
                      <div class="card-body">
@@ -741,7 +752,7 @@
                <div class="col-sm-12 col-md-6 col-lg-3">
                   <div class="card">
                      <div class="image-card">
-                        <div class="caption">Culture</div>
+                        <div class="caption text-uppercase">Culture</div>
                         <img class="card-img-top" src="assets/img/chrissy-teigen.jpg" alt="Card image">
                      </div>
                      <div class="card-body">
@@ -753,7 +764,7 @@
                <div class="col-sm-12 col-md-6 col-lg-3">
                   <div class="card">
                      <div class="image-card">
-                        <div class="caption">Culture</div>
+                        <div class="caption text-uppercase">Culture</div>
                         <img class="card-img-top" src="assets/img/boston.jpg" alt="Card image">
                      </div>
                      <div class="card-body">
@@ -765,7 +776,7 @@
                <div class="col-sm-12 col-md-6 col-lg-3">
                   <div class="card">
                      <div class="image-card">
-                        <div class="caption">Culture</div>
+                        <div class="caption text-uppercase">Culture</div>
                         <img class="card-img-top" src="assets/img/zoom-video-conference-app-logo.jpg" alt="Card image">
                      </div>
                      <div class="card-body">
@@ -777,7 +788,7 @@
                <div class="col-sm-12 col-md-6 col-lg-3">
                   <div class="card">
                      <div class="image-card">
-                        <div class="caption">Culture</div>
+                        <div class="caption text-uppercase">Culture</div>
                         <img class="card-img-top" src="assets/img/chrissy-teigen.jpg" alt="Card image">
                      </div>
                      <div class="card-body">
@@ -810,7 +821,7 @@
                      </div>
                   </div>
                   <div class="col-sm-12 col-md-4">
-                     <div class="col-12">
+                     <div class="col-12 mb-2">
                         <div class="more-story">
                            <div class="pic-div-2">
                               <img class="story-img" src="assets/img/chinese-communist-party-delegates-face-masks.jpg" alt="img">
@@ -820,7 +831,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-12">
+                     <div class="col-12 mb-2 pt-1">
                         <div class="more-story">
                            <div class="pic-div-2">
                               <img class="story-img" src="assets/img/chinese-communist-party-delegates-face-masks.jpg" alt="img">
@@ -830,7 +841,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-12">
+                     <div class="col-12 mb-2 pt-1">
                         <div class="more-story">
                            <div class="pic-div-2">
                               <img class="story-img" src="assets/img/chinese-communist-party-delegates-face-masks.jpg" alt="img">
@@ -863,7 +874,7 @@
                      </div>
                   </div>
                   <div class="col-sm-12 col-md-4">
-                     <div class="col-12">
+                     <div class="col-12 mb-2">
                         <div class="more-story">
                            <div class="pic-div-2">
                               <img class="story-img" src="assets/img/chinese-communist-party-delegates-face-masks.jpg" alt="img">
@@ -873,7 +884,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-12">
+                     <div class="col-12 mb-2 pt-1">
                         <div class="more-story">
                            <div class="pic-div-2">
                               <img class="story-img" src="assets/img/chinese-communist-party-delegates-face-masks.jpg" alt="img">
@@ -883,7 +894,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-12">
+                     <div class="col-12 mb-2 pt-1">
                         <div class="more-story">
                            <div class="pic-div-2">
                               <img class="story-img" src="assets/img/chinese-communist-party-delegates-face-masks.jpg" alt="img">
@@ -916,7 +927,7 @@
                      </div>
                   </div>
                   <div class="col-sm-12 col-md-4">
-                     <div class="col-12">
+                     <div class="col-12 mb-2">
                         <div class="more-story">
                            <div class="pic-div-2">
                               <img class="story-img" src="assets/img/chinese-communist-party-delegates-face-masks.jpg" alt="img">
@@ -926,7 +937,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-12">
+                     <div class="col-12 mb-2 pt-1">
                         <div class="more-story">
                            <div class="pic-div-2">
                               <img class="story-img" src="assets/img/chinese-communist-party-delegates-face-masks.jpg" alt="img">
@@ -936,7 +947,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-12">
+                     <div class="col-12 mb-2 pt-1">
                         <div class="more-story">
                            <div class="pic-div-2">
                               <img class="story-img" src="assets/img/chinese-communist-party-delegates-face-masks.jpg" alt="img">
@@ -959,23 +970,23 @@
                      <div class="img-bottom"><img src="assets/img/may-22-2020-cover.jpg" alt="img"></div>
                      <div class="img-top"><img src="assets/img/may-29-june-06-2020-cover(1).jpg" alt="cover"></div>
                   </div>
-                  <div class="img-div-2 col-md-9">
-                     <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
-                     <p class="debate-para">All Access + Weekly Delivery.<br><span>Choose A Membership That's Perfect for You!</span></p>
-                     <button class="test login-btn">Subscribe ></button>
+                  <div class="img-div-2 text-center col-md-9">
+                     <h3 class="ml-md-3 ml-lg-5 mb-lg-2">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
+                     <p class="debate-para ml-md-3 ml-md-3">All Access + Weekly Delivery.<br><span>Choose A Membership That's Perfect for You!</span></p>
+                     <button class="test border-0 login-btn ml-md-3 ml-md-3 p-1 rounded-lg| ">Subscribe ></button>
                   </div>
                </div>
             </div>
             <div class="col-sm-12 col-lg-4">
                <h5>NEWSLETTER</h5>
                <div class="row newsletter-whole-div">
-                  <div class="col-md-3 col-lg-5 hidden-phone newsletter-phone"></div>
-                  <div class=" img-info col-sm-12 col-md-9 col-lg-7">
-                     <h3>The Starting 5</h3>
-                     <p class="debate-para">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                  <div class="col-md-3 col-lg-5 d-md-block d-sm-none newsletter-phone"></div>
+                  <div class=" img-info text-sm-center text-md-left col-sm-12 col-md-9 col-lg-7">
+                     <h3 class="mt-lg-5 ml-md-3">The Starting 5</h3>
+                     <p class="debate-para mt-lg-5 ml-md-3">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
                      <form class="news-form for-pad">
-                        <input type="text" name="email" class="form-text" placeholder="Email address">
-                        <input type="submit" name="sumbit" class="form-submit" value="Free sign up >">
+                        <input type="text" name="email" class="form-text ml-md-3" placeholder="Email address">
+                        <input type="submit" name="sumbit" class="form-submit ml-md-3 font-weight-bold" value="Free sign up >">
                      </form>
                   </div>
                </div>
@@ -984,7 +995,7 @@
          <!-- footer -->
          <footer>
             <div class="row footer-border">
-                  <svg version="1.1"  class="navbar-brand" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10em" fill="#f61602" height="2rem" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+                  <svg version="1.1"  class="navbar-brand" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="7em" fill="#f61602" height="2rem" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
                      <g>
                         <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2 L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11 c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7 l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6 H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13 c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8 c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2 C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7  h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4  c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1  c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6  c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6 C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5 h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9  c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2  c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9  C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6 c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1 c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6  v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3  c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5  h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
                      </g>
@@ -1005,11 +1016,11 @@
                <div class="col-12">
                   <ul class="footer-ul mt-2 mb-1">
                      <li class="footer-list">Editions :</li>
-                     <li class="footer-list"><a href="#" class="footer-list-link">U.S.</a></li>
-                     <li class="footer-list"><a href="#" class="footer-list-link">România</a></li>
-                     <li class="footer-list"><a href="#" class="footer-list-link">日本</a></li>
-                     <li class="footer-list"><a href="#" class="footer-list-link">Pakistan</a></li>
-                     <li class="footer-list"><a href="#" class="footer-list-link">Polska</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| U.S.</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| România</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| 日本</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| Pakistan</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| Polska</a></li>
                   </ul>
                </div>
             </div>
@@ -1017,18 +1028,18 @@
                <div class="col-12">
                   <ul>
                      <li class="footer-list"><a href="#" class="footer-list-link">About Us</a></li>
-                     <li class="footer-list"><a href="#" class="footer-list-link">Corrections</a></li>
-                     <li class="footer-list"><a href="#" class="footer-list-link">Contact Us</a></li>
-                     <li class="footer-list"><a href="#" class="footer-list-link">Editorial Guidelines</a></li>
-                     <li class="footer-list"><a href="#" class="footer-list-link">Advertise</a></li>
-                     <li class="footer-list"><a href="#" class="footer-list-link">Copyright</a></li>
-                     <li class="footer-list"><a href="#" class="footer-list-link">Terms & Conditions</a></li>
-                     <li class="footer-list"><a href="#" class="footer-list-link">Privacy Policy</a></li>
-                     <li class="footer-list"><a href="#" class="footer-list-link">Cookie Policy</a></li>
-                     <li class="footer-list"><a href="#" class="footer-list-link">Terms of Sale</a></li>
-                     <li class="footer-list"><a href="#" class="footer-list-link"> Archive</a></li>
-                     <li class="footer-list"><a href="#" class="footer-list-link">Announcements</a></li>
-                     <li class="footer-list"><a href="#" class="footer-list-link">Consent preferences</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| Corrections</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| Contact Us</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| Editorial Guidelines</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| Advertise</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| Copyright</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| Terms & Conditions</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| Privacy Policy</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| Cookie Policy</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| Terms of Sale</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| Archive</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| Announcements</a></li>
+                     <li class="footer-list"><a href="#" class="footer-list-link">| Consent preferences</a></li>
                   </ul>
                </div>
             </div>
