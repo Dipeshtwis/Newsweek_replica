@@ -107,7 +107,8 @@ img {
   color: black;
 }
 
-.login-btn {
+.login-btn,
+.login-btn:hover {
   background-color: #f72310;
   color: white;
 }
@@ -122,7 +123,7 @@ img {
 
 .navbar-item {
   display: inline-block;
-  margin-right: 1.3vw;
+  margin-right: 1.7vw;
 }
 
 .link-nav {
@@ -437,6 +438,14 @@ footer {
   cursor: pointer;
 }
 
+.hidden-ipad-ph {
+  display: none;
+}
+
+.hidden-phone {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   h3 {
     font-size: 12px;
@@ -445,6 +454,10 @@ footer {
   .icon {
     width: 50px;
     height: 50px;
+  }
+
+  .hidden-phone {
+    display: block;
   }
 
   .jumbotron {
@@ -482,6 +495,10 @@ footer {
   h3 {
     font-size: 15px;
     font-weight: 700;
+  }
+
+  .hidden-ipad-ph {
+    display: inline-block;
   }
 
   .navbar-top-left {

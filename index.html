@@ -13,16 +13,16 @@
       <title>Newsweek</title>
    </head>
    <body>
-      <div class="container">
+      <main class="container">
          <header class="header w-100">
             <div class="navbar-top d-flex justify-content-between">
-               <div class="navbar-top-left d-sm-none d-lg-inline-block">
+               <div class="navbar-top-left hidden-ipad-ph">
                   <i class="fas fa-cloud-sun"></i>
                   <span>34</span>
                   <span>Patna, Bihar</span>
                   <p class="head-para">Fri, May 29, 2020</p>
                </div>
-               <div class="navbar-top-middle d-sm-none d-lg-inline-block">
+               <div class="navbar-top-middle hidden-ipad-ph">
                   <a class="brand" href="https://www.newsweek.com">
                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25em" height="5rem" fill="#fff" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
                         <g>
@@ -31,9 +31,9 @@
                      </svg>
                   </a>
                </div>
-               <ul class="navbar-top-right d-sm-none d-lg-inline-block">
-                  <li class="navbar-item"><button class=" test mt-lg-1 border-0 login-btn">Login</button></li>
-                  <li class="navbar-item"><button class=" test mt-lg-1 border-0 rounded-lg subscribe-button">Subscribe ></button></li>
+               <ul class="navbar-top-right hidden-ipad-ph">
+                  <li class="navbar-item"><a href="#" class=" test mt-lg-1 border-0 login-btn">Login</a></li>
+                  <li class="navbar-item"><a href="#" class=" test mt-lg-1 border-0 rounded-lg subscribe-button">Subscribe ></a></li>
                </ul>
             </div>
             <div class=" navbar-middle w-100 d-lg-none">
@@ -46,10 +46,10 @@
                   <ul class="navbar-right">
                      <li class="navbar-item">
                         <span class="d-md-none"><i class="fas fa-user"></i></span>
-                        <span class="d-sm-none d-md-block"><button class="test border-0 login-btn">Login</button></span>
+                        <span class="hidden-phone"><a href="#" class="test border-0 login-btn">Login</a></span>
                      </li>
                      <li class="navbar-item">
-                        <button class="test border-0 subscribe-button rounded">Subscribe ></button>
+                        <a href="#" class="test border-0 subscribe-button rounded">Subscribe ></a>
                      </li>
                      <li class="navbar-item">
                         <i class="fas fa-bars fa-lg"></i>
@@ -98,7 +98,7 @@
                      </div>
                   </article>
                   <!-- hidden phone hero and story -->
-                  <div class="row flex-column d-sm-none d-md-block">
+                  <div class="row flex-column hidden-phone">
                      <article class="order-sm-11 pt-3">
                         <h2 class="text-muted">Heroes of the Pandemic</h2>
                         <div class="row">
@@ -1044,7 +1044,7 @@
                </div>
             </div>
          </footer>
-      </div>
+      </main>
    </body>
 </html>
 
