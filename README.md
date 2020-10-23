@@ -3,7 +3,7 @@ This is a clone version of newsweek website. It has uses of bootstrap framework 
 
 ## Project Design
 
-Project Design Screenshot : ![Project Design](assets/img/Screenshot_2020-06-03_Newsweek.png)
+Project Design Screenshot : ![Project Design](assets/img/Screenshot.png)
 
 ## Built With
 
